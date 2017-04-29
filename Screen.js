@@ -1,4 +1,6 @@
-var canvas = document.getElementById("screen");
-var ctx = canvas.getContext("2d");
-ctx.fillStyle = "gray";
-ctx.fillRect(0,0,150,150);
+function setup(){
+    createCanvas(600,400);
+
+    fill("gray");
+    fillRect(0,0,600,400);
+}
